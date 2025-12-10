@@ -1,0 +1,36 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# Access modifiers formatting
+AccessModifierOffset: 0
+IndentAccessModifiers: true
+
+# Namespace indentation
+NamespaceIndentation: All
+
+# Alignment rules
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignAfterOpenBracket: Align
+
+# Function rules
+AllowShortFunctionsOnASingleLine: None
+BreakBeforeBraces: Allman
+
+# Template formatting
+AlwaysBreakTemplateDeclarations: Yes
+
+# Include rules
+SortIncludes: false
+
+# Column limit
+ColumnLimit: 200
+
+# Case labels indentation
+IndentCaseLabels: true
+
+# Macro block patterns (your corrected versions)
+MacroBlockBegin: "^NS_MAP_BEGIN\\|NS_TABLE_HEAD$"
+MacroBlockEnd: "^NS_MAP_END\\|NS_TABLE_.*_END$"
